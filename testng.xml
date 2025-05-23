@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite" >
+	
+  <test name="chromeTest">
+  
+  	<listeners>
+  	<listener class-name="utilities.ExtentReportManager"/>
+  	</listeners>
+  	
+  	<!-- <parameter name="browser" value="chrome"/> -->
+    <classes>
+      <!-- <class name="testCases.TC_001_AccountRegistrationTest"/> -->
+      <!-- <class name="testCases.TC_002_LoginTest" /> -->
+      <!-- <class name="testCases.TC_003_LoginDDTest" /> -->
+      <class name="testCases.TC_006_RegistrationWithInvalidFields" />
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+</suite> <!-- Suite -->

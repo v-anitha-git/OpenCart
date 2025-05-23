@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-23T15:02:07 IST" name="DemoSuite" finished-at="2025-05-23T15:02:25 IST" duration-ms="17424">
+    <groups>
+    </groups>
+    <test started-at="2025-05-23T15:02:07 IST" name="chromeTest" finished-at="2025-05-23T15:02:25 IST" duration-ms="17424">
+      <class name="testCases.TC_006_RegistrationWithInvalidFields">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_006_RegistrationWithInvalidFields@3b0090a4]" started-at="2025-05-23T15:02:08 IST" name="setup" finished-at="2025-05-23T15:02:14 IST" duration-ms="6231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidFirstName()[pri:1, instance:testCases.TC_006_RegistrationWithInvalidFields@3b0090a4]" started-at="2025-05-23T15:02:14 IST" name="testInvalidFirstName" finished-at="2025-05-23T15:02:16 IST" duration-ms="2246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidFirstName -->
+        <test-method signature="testInvalidLastName()[pri:2, instance:testCases.TC_006_RegistrationWithInvalidFields@3b0090a4]" started-at="2025-05-23T15:02:16 IST" name="testInvalidLastName" finished-at="2025-05-23T15:02:18 IST" duration-ms="1904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLastName -->
+        <test-method signature="testInvalidEmail()[pri:3, instance:testCases.TC_006_RegistrationWithInvalidFields@3b0090a4]" started-at="2025-05-23T15:02:18 IST" name="testInvalidEmail" finished-at="2025-05-23T15:02:19 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmail -->
+        <test-method signature="testInvalidPassword()[pri:4, instance:testCases.TC_006_RegistrationWithInvalidFields@3b0090a4]" started-at="2025-05-23T15:02:19 IST" name="testInvalidPassword" finished-at="2025-05-23T15:02:21 IST" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method signature="testInvalidPhoneNumber()[pri:5, instance:testCases.TC_006_RegistrationWithInvalidFields@3b0090a4]" started-at="2025-05-23T15:02:21 IST" name="testInvalidPhoneNumber" finished-at="2025-05-23T15:02:22 IST" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPhoneNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_006_RegistrationWithInvalidFields@3b0090a4]" started-at="2025-05-23T15:02:22 IST" name="tearDown" finished-at="2025-05-23T15:02:25 IST" duration-ms="2426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_006_RegistrationWithInvalidFields -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- DemoSuite -->
+</testng-results>

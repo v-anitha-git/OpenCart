@@ -1,0 +1,281 @@
+2025-05-23 11:37:35 [main] INFO  testCases.TC_005_RegistrationWithoutPrivacyPolicyTest:14 - *** started TC_005_RegistrationWithoutPrivacyPolicyTest ***
+2025-05-23 11:37:37 [main] INFO  testCases.TC_005_RegistrationWithoutPrivacyPolicyTest:35 - *** finished TC_005_RegistrationWithoutPrivacyPolicyTest ***
+2025-05-23 12:33:19 [main] INFO  testCases.TC_005_RegistrationWithoutPrivacyPolicyTest:14 - *** started TC_005_RegistrationWithoutPrivacyPolicyTest ***
+2025-05-23 12:33:22 [main] INFO  testCases.TC_005_RegistrationWithoutPrivacyPolicyTest:38 - *** finished TC_005_RegistrationWithoutPrivacyPolicyTest ***
+2025-05-23 12:48:36 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:119 - *** Starting testInvalidEmailTest ***
+2025-05-23 12:48:48 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:140 - Error in testInvalidEmail: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='text-danger']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be978767d98bf307edd5c17952b2cde1, findElement {value=//div[@class='text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54569/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be978767d98bf307edd5c17952b2cde1
+2025-05-23 12:48:49 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:148 - *** Finished testInvalidEmailTest ***
+2025-05-23 12:48:49 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 12:49:00 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:35 - Error in testInvalidFirstName: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='text-danger']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be978767d98bf307edd5c17952b2cde1, findElement {value=//div[@class='text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54569/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be978767d98bf307edd5c17952b2cde1
+2025-05-23 12:49:00 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 12:49:00 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:49 - *** Starting testInvalidLastNameTest ***
+2025-05-23 12:49:12 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:70 - Error in testInvalidLastName: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='text-danger']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be978767d98bf307edd5c17952b2cde1, findElement {value=//div[@class='text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54569/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be978767d98bf307edd5c17952b2cde1
+2025-05-23 12:49:12 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:78 - *** Finished testInvalidLastNameTest ***
+2025-05-23 12:49:12 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:154 - *** Starting testInvalidPasswordTest ***
+2025-05-23 12:49:22 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:174 - Error in testInvalidPassword: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be978767d98bf307edd5c17952b2cde1, findElement {value=//a[normalize-space()='Register'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54569/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be978767d98bf307edd5c17952b2cde1
+2025-05-23 12:49:22 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:182 - *** Finished testInvalidPasswordTest ***
+2025-05-23 12:49:22 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:84 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 12:49:32 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:105 - Error in testInvalidPhoneNumber: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be978767d98bf307edd5c17952b2cde1, findElement {value=//a[normalize-space()='Register'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54569/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be978767d98bf307edd5c17952b2cde1
+2025-05-23 12:49:32 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:113 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:00:47 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:01:00 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:35 - Error in testInvalidFirstName: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='text-danger']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6613472a01c7c989b40c7de5bf88a79, findElement {using=xpath, value=//div[@class='text-danger']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61538}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61538/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e6613472a01c7c989b40c7de5bf88a79
+2025-05-23 13:01:00 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:02:23 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:02:25 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:03:46 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:03:49 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:05:09 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:05:12 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:05:12 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:05:13 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:09:01 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:09:04 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:09:04 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:09:06 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:09:06 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:86 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:09:08 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:115 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:10:13 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:10:15 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:10:15 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:10:16 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:10:16 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:86 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:10:18 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:115 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:10:18 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:10:20 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:150 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:11:40 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:11:43 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:11:43 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:11:44 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:11:44 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:86 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:11:46 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:115 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:11:46 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:11:47 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:150 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:11:47 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:155 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:11:49 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:184 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:14:24 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:14:27 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:14:27 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:14:28 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:14:28 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:86 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:14:30 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:115 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:14:30 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:14:31 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:150 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:14:31 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:155 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:14:33 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:184 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:16:40 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:16:43 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:39 - Assertion error in testInvalidFirstName: expected [true] but found [false]
+2025-05-23 13:16:43 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:16:43 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:16:44 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:16:44 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:86 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:16:46 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:115 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:16:46 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:16:48 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:150 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:16:48 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:155 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:16:49 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:184 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:17:59 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:18:01 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:39 - Assertion error in testInvalidFirstName: expected [true] but found [false]
+2025-05-23 13:18:01 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:18:02 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:18:03 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:76 - Assertion error in testInvalidLastName: expected [true] but found [false]
+2025-05-23 13:18:03 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:18:03 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:86 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:18:04 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:115 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:18:04 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:18:06 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:150 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:18:06 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:155 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:18:07 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:184 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:19:20 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:19:22 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:39 - Assertion error in testInvalidFirstName: expected [true] but found [false]
+2025-05-23 13:19:22 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:19:22 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:19:24 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:76 - Assertion error in testInvalidLastName: expected [true] but found [false]
+2025-05-23 13:19:24 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:19:24 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:86 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:19:26 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:111 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:19:26 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:115 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:19:26 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:19:27 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:150 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:19:27 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:155 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:19:29 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:184 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:22:10 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:22:13 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:39 - Assertion error in testInvalidFirstName: expected [true] but found [false]
+2025-05-23 13:22:13 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:22:13 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:22:15 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:76 - Assertion error in testInvalidLastName: expected [true] but found [false]
+2025-05-23 13:22:15 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:22:15 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:86 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:22:16 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:111 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:22:16 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:115 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:22:16 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:22:18 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:150 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:22:18 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:155 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:22:20 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:184 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:27:35 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:27:37 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:39 - Assertion error in testInvalidFirstName: expected [true] but found [false]
+2025-05-23 13:27:37 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:27:37 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:27:39 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:76 - Assertion error in testInvalidLastName: expected [true] but found [false]
+2025-05-23 13:27:39 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:27:39 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:86 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:27:41 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:111 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:27:41 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:115 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:27:41 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:27:43 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:150 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:27:43 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:155 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:27:44 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:184 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:29:31 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:14 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:29:33 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:39 - Assertion error in testInvalidFirstName: expected [true] but found [false]
+2025-05-23 13:29:33 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:43 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:29:34 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:51 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:29:35 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:76 - Assertion error in testInvalidLastName: expected [true] but found [false]
+2025-05-23 13:29:35 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:80 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:29:35 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:86 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:29:37 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:111 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:29:37 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:115 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:29:37 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:29:38 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:150 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:29:38 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:155 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:29:40 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:184 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:31:49 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:15 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:31:52 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:40 - Assertion error in testInvalidFirstName: expected [true] but found [false]
+2025-05-23 13:31:52 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:44 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:31:52 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:52 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:31:54 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:77 - Assertion error in testInvalidLastName: expected [true] but found [false]
+2025-05-23 13:31:54 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:81 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:31:54 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:87 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:31:56 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:114 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:31:56 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:118 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:31:56 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:125 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:31:58 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:153 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:31:58 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:158 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:31:59 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:187 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:38:37 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:15 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:38:39 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:40 - Assertion error in testInvalidFirstName: expected [true] but found [false]
+2025-05-23 13:38:39 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:44 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:38:39 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:52 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:38:41 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:77 - Assertion error in testInvalidLastName: expected [true] but found [false]
+2025-05-23 13:38:41 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:81 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:38:41 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:87 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:38:43 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:114 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:38:43 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:118 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:38:43 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:125 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:38:44 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:153 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:38:44 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:158 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:38:46 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:187 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:41:15 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:88 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:41:17 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:115 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:41:17 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:119 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:41:18 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:126 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:41:19 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:154 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:41:19 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:159 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:41:21 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:188 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:43:17 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:88 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:43:21 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:116 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:43:21 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:120 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:43:22 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:127 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:43:23 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:155 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:43:23 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:160 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:43:25 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:189 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:44:43 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:88 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:44:47 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:118 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:44:47 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:44:48 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:129 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:44:49 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:157 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:44:49 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:162 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:44:51 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:191 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:46:29 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:88 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:46:34 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:119 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:46:34 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:123 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:46:34 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:130 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:46:36 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:158 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:46:36 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:163 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:46:37 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:192 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:48:05 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:16 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:48:07 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:41 - Assertion error in testInvalidFirstName: expected [true] but found [false]
+2025-05-23 13:48:07 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:45 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:48:08 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:53 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:48:09 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:78 - Assertion error in testInvalidLastName: expected [true] but found [false]
+2025-05-23 13:48:09 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:82 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:48:09 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:88 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:48:11 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:118 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:48:11 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:122 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:48:11 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:129 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:48:12 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:154 - Assertion error in testInvalidPassword: expected [true] but found [false]
+2025-05-23 13:48:12 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:158 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:48:13 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:163 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:48:14 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:188 - Assertion error in testInvalidPhoneNumber: expected [true] but found [false]
+2025-05-23 13:48:14 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:192 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 13:50:28 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:16 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 13:50:30 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:41 - Assertion error in testInvalidFirstName: expected [true] but found [false]
+2025-05-23 13:50:30 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:45 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 13:50:30 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:53 - *** Starting testInvalidLastNameTest ***
+2025-05-23 13:50:32 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:78 - Assertion error in testInvalidLastName: expected [true] but found [false]
+2025-05-23 13:50:32 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:82 - *** Finished testInvalidLastNameTest ***
+2025-05-23 13:50:32 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:88 - *** Starting testInvalidEmailTest ***
+2025-05-23 13:50:34 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:116 - Assertion error in testInvalidEmail: expected [true] but found [false]
+2025-05-23 13:50:34 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:120 - *** Finished testInvalidEmailTest ***
+2025-05-23 13:50:34 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:127 - *** Starting testInvalidPasswordTest ***
+2025-05-23 13:50:36 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:152 - Assertion error in testInvalidPassword: expected [true] but found [false]
+2025-05-23 13:50:36 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:156 - *** Finished testInvalidPasswordTest ***
+2025-05-23 13:50:36 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:161 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 13:50:37 [main] ERROR testCases.TC_006_RegistrationWithInvalidFields:187 - Assertion error in testInvalidPhoneNumber: expected [true] but found [false]
+2025-05-23 13:50:37 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:191 - *** Finished testInvalidPhoneNumberTest ***
+2025-05-23 15:02:14 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:16 - *** Starting testInvalidFirstNameTest ***
+2025-05-23 15:02:16 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:45 - *** Finished testInvalidFirstNameTest ***
+2025-05-23 15:02:16 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:53 - *** Starting testInvalidLastNameTest ***
+2025-05-23 15:02:18 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:82 - *** Finished testInvalidLastNameTest ***
+2025-05-23 15:02:18 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:88 - *** Starting testInvalidEmailTest ***
+2025-05-23 15:02:19 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:120 - *** Finished testInvalidEmailTest ***
+2025-05-23 15:02:19 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:127 - *** Starting testInvalidPasswordTest ***
+2025-05-23 15:02:21 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:156 - *** Finished testInvalidPasswordTest ***
+2025-05-23 15:02:21 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:161 - *** Starting testInvalidPhoneNumberTest ***
+2025-05-23 15:02:22 [main] INFO  testCases.TC_006_RegistrationWithInvalidFields:191 - *** Finished testInvalidPhoneNumberTest ***
