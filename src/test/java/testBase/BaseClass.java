@@ -46,7 +46,7 @@ public class BaseClass {
 		driver.get("https://tutorialsninja.com/demo/");
 		//driver.get(properties.getProperty("appURL"));   //reading url from properties file
 		driver.manage().window().maximize();
-		setZoomLevel("50%");
+		
 	}
 		
 	@AfterClass
