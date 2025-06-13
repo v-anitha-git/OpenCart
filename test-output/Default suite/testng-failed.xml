@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_006_RegistrationWithInvalidFields">
+      <class name="testCases.TC_009_AddToCartPageTest">
         <methods>
-          <include name="testInvalidFirstName"/>
           <include name="tearDown"/>
+          <include name="verify_addToCart"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_006_RegistrationWithInvalidFields -->
+      </class> <!-- testCases.TC_009_AddToCartPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

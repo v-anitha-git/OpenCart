@@ -28,7 +28,7 @@ public class TC_004_AccountRegistrationWithEmptyFieldsTest extends BaseClass{
 		
 		String errormsg=regpg.getErrorMessage();
 		
-		Assert.assertEquals(errormsg, "Warning: You must agree to the Privacy Policy","Test Failed..."+errormsg);
+		Assert.assertEquals(errormsg, "Warning: You must agree to the Privacy Policy!","Test Failed..."+errormsg);
 		}
 		catch(Exception e) {
 			logger.error("Exception occured: "+e.getMessage());

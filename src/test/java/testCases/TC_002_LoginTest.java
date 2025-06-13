@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC_002_LoginTest extends BaseClass {
 	
 	@Test	
-	public void verify_login_credentials() {
+	public void verify_login_credentials() throws InterruptedException {
 		
 		logger.info("*** Started TC_002_LoginTest ***");
 		
@@ -25,6 +25,7 @@ public class TC_002_LoginTest extends BaseClass {
 		LoginPage loginpg=new LoginPage(driver);
 		loginpg.setEmail("keerthi@gmail.com");
 		loginpg.setPassword("Keerthi");
+		Thread.sleep(7000); // Adding sleep to simulate real user interaction
 		loginpg.clickLogin();
 		String errormsg=loginpg.getErrorMessage();
 		

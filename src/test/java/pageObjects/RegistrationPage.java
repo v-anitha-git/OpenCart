@@ -22,8 +22,9 @@ public class RegistrationPage extends BasePage {
 	@FindBy(xpath="//input[@name='agree']") WebElement chk_policy;
 	@FindBy(xpath="//input[@value='Continue']") WebElement btn_continue;
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']") WebElement msg;
-	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement msg_error;
-	@FindBy(xpath="//div[@class='text-danger']") WebElement msg_fname_error;
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement alert_msg;
+	@FindBy(xpath="//div[@class='text-danger']") WebElement msg_field_error;
+	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement btn_continue_after_registration;
 	
 	
 	public void setFirstname(String fname) {
@@ -68,15 +69,24 @@ public class RegistrationPage extends BasePage {
 	}
 	
 	public String getErrorMessage() {
-		return msg_error.getText();
+		try {
+		return alert_msg.getText();
+		}
+		catch(Exception e) {
+			return "";
+		}
 	}
 	
 	public String getFieldErrorMessage() {
-		return msg_fname_error.getText();
+		try {
+		return msg_field_error.getText();
+		}catch(Exception e) {
+			return "";
+		}
+	}	
+	
+	public void clickContinueAfterRegistration() {
+		btn_continue_after_registration.click();
 	}
-
-	
-	
-	
 	
 }

@@ -6,17 +6,13 @@
   </listeners>
   <test thread-count="5" name="chromeTest(failed)">
     <classes>
-      <class name="testCases.TC_006_RegistrationWithInvalidFields">
+      <class name="testCases.TC_008_SearchProductTest">
         <methods>
-          <include name="testInvalidFirstName"/>
           <include name="tearDown"/>
-          <include name="testInvalidLastName"/>
-          <include name="testInvalidEmail"/>
           <include name="setup"/>
-          <include name="testInvalidPassword"/>
-          <include name="testInvalidPhoneNumber"/>
+          <include name="verify_pruductSearch"/>
         </methods>
-      </class> <!-- testCases.TC_006_RegistrationWithInvalidFields -->
+      </class> <!-- testCases.TC_008_SearchProductTest -->
     </classes>
   </test> <!-- chromeTest(failed) -->
 </suite> <!-- Failed suite [DemoSuite] -->

@@ -29,7 +29,7 @@ public class TC_001_AccountRegistrationTest extends BaseClass {
 		String lname=randomString().toLowerCase();
 		regpg.setFirstname(fname);
 		regpg.setLastname(lname);
-		regpg.setEmail(fname+"."+lname+"@gmail.com");
+		regpg.setEmail(fname+"."+lname+"@gmail");
 		regpg.setPhoneNumber(randomNumber());
 		
 		String pwd=randomAlphaNumeric();
@@ -37,13 +37,14 @@ public class TC_001_AccountRegistrationTest extends BaseClass {
 		regpg.setConfirmPassword(pwd);
 		regpg.setNewsLetter();
 		regpg.setPrivacyPolicy();
+		Thread.sleep(15000); // wait for 2 seconds to ensure the checkbox is checked
 		regpg.clickContinue();
 		
 		logger.info("Validating confirmation message...");
 		String msg=regpg.getMessage();
 		
 		
-		Assert.assertEquals(msg, "Your Account Has Been Created", "Account registrtion failed. Actual message: " + msg);
+		Assert.assertEquals(msg, "Your Account Has Been Created!", "Account registrtion failed. Actual message: " + msg);
 		}		
 		catch(Exception e) {
 			logger.error("Exception occur: "+e.getMessage());

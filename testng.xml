@@ -6,13 +6,16 @@
   
   	<listeners>
   	<listener class-name="utilities.ExtentReportManager"/>
+  	<!--<listener class-name="utilities.AnnotationTransformer"/> -->
   	</listeners>
   	
-  	<!-- <parameter name="browser" value="chrome"/> -->
+  	<parameter name="browser" value="chrome"/> 
     <classes>
-      <!-- <class name="testCases.TC_001_AccountRegistrationTest"/> -->
-      <!-- <class name="testCases.TC_002_LoginTest" /> -->
-      <!-- <class name="testCases.TC_003_LoginDDTest" /> -->
+      <class name="testCases.TC_001_AccountRegistrationTest"/>
+      <class name="testCases.TC_002_LoginTest" />
+      <class name="testCases.TC_003_LoginDDTest" />
+      <class name="testCases.TC_004_AccountRegistrationWithEmptyFieldsTest"/>
+      <class name="testCases.TC_005_RegistrationWithoutPrivacyPolicyTest"/>
       <class name="testCases.TC_006_RegistrationWithInvalidFields" />
     </classes>
   </test> <!-- Test -->

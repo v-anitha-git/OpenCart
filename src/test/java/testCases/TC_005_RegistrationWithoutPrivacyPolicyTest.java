@@ -28,6 +28,7 @@ public class TC_005_RegistrationWithoutPrivacyPolicyTest extends BaseClass {
 		regPage.setPassword(pwd);
 		regPage.setConfirmPassword(pwd);
 		regPage.setNewsLetter();
+		Thread.sleep(5000);
 		regPage.clickContinue();
 
 		String errorMsg = regPage.getErrorMessage();

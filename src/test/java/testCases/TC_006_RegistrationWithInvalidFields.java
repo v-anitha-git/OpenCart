@@ -20,7 +20,7 @@ public class TC_006_RegistrationWithInvalidFields extends BaseClass {
 	        homePage.clickRegister();
 
 	        RegistrationPage regPage = new RegistrationPage(driver);
-	        regPage.setFirstname("019298388ddhfnchhzttehdfkklsieujfnhgjkajsj6"); // Invalid
+	        regPage.setFirstname(""); // Invalid
 	        regPage.setLastname(randomString().toLowerCase());
 	        regPage.setEmail(randomString().toLowerCase() + "@gmail.com");
 	        regPage.setPhoneNumber(randomNumber());
@@ -96,7 +96,7 @@ public class TC_006_RegistrationWithInvalidFields extends BaseClass {
 	        
 	        regPage.setFirstname(randomString());
 	        regPage.setLastname(randomString());
-	        regPage.setEmail("invalid-email@gmail"); // Invalid
+	        regPage.setEmail(randomString()+"@gmail"); // Invalid
 	        regPage.setPhoneNumber(randomNumber());
 	        String pwd = randomAlphaNumeric();
 	        regPage.setPassword(pwd);
